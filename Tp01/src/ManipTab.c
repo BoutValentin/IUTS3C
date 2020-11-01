@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Fonction realisant l'affichage d'un tableu de entier */
 void affiche(int liste[], int taille){
      int i = 0;
      while(i<taille){
@@ -22,7 +23,6 @@ void recopie(int src[],int dest[],int taille){
      }
 }
 void testManipTab(){
-     
      int tab[] = {2,8,7,3,10};
      affiche(tab, sizeof tab / sizeof *tab);
      printf("somme : %d \n", somme(tab, sizeof tab / sizeof *tab));

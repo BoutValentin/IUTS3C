@@ -24,8 +24,5 @@ int main(int argc, char **argv){
      printf("Concatenation de %s et %s: %s\n", s4, "salut", mon_strcat(s4,"salut"));
      printf("Premiere occurence de %c dans %s: %d\n", 'w', s, mon_strchr(s,'w'));
      printf("Premiere occurence de %s dans %s: %d\n", "tot", s, mon_strstr(s,"tot"));
-
-
-
      return 0;
 }

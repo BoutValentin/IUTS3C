@@ -6,7 +6,6 @@ int main(void){
 
      printALL();
      testManipTab();
-          testManipStruc();
-
+     testManipStruc();
      return 0;
 }
